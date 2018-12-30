@@ -1,3 +1,8 @@
+/*Nesi Mpanzu
+Game Number
+C# */
+
+
 static void Main(string[] args)
 {
     int valueToFound = new Random().Next(0, 100);
@@ -28,5 +33,5 @@ static void Main(string[] args)
     if (numberSet == 1)
         Console.WriteLine("you hav " + numberSet + " coup");
     else
-        Console.WriteLine("Vous avez trouvé en " + numberSet + " coups");
+        Console.WriteLine("Vous avez trouvÃ© en " + numberSet + " coups");
 }
