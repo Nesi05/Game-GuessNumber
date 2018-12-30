@@ -31,7 +31,7 @@ static void Main(string[] args)
             Console.WriteLine("This is bigger ...");
     }
     if (numberSet == 1)
-        Console.WriteLine("you hav " + numberSet + " coup");
+        Console.WriteLine("you have found it in " + numberSet + " time set ");
     else
-        Console.WriteLine("Vous avez trouvé en " + numberSet + " coups");
+        Console.WriteLine("you have found it in " + numberSet + " times set");
 }
